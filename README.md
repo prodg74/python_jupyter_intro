@@ -1,3 +1,4 @@
+
 # Agenda
 ## 1. Introduction
  * Started using SQL Server on OS/2 in early 90's
@@ -6,7 +7,25 @@
  * Discovered Linux/Unix and Open Source Software in 1998 
  * Attended Python training by Guido van Rossum in early 2000's
  
-## 2. Some Concepts
+## 2. Why Python?
+ * Ease of use  
+   * `print('Hello World')`
+   * Code is considered to be very readable
+ * Python is widely used and has maintained popularity for an extended period of time
+ * Python is very well supported by formal and informal support groups
+ * Lots of high quality Python training is available on YouTube
+ * Python is used in many lines of business and has lots of extensions available for specific businesses (we'll see Pandas today. Pandas comes from the finance community)
+ 
+## 3. Why Jupyter Lab? 
+ * Jupyter Lab provides an easy to use interface to interactively test and develop code
+### (From Chat GPT!!)
+ * With Jupyter Lab, you can create and edit notebooks, text files, and more all from the same interface, making it easier to organize and manage your projects.
+ * Enhanced collaboration: Jupyter Lab can be used to share code and data with colleagues, facilitating collaboration and increasing productivity.
+ * Powerful visualization: Jupyter Lab includes a number of built-in visualization tools that can help you explore your data, making it easier to identify insights and build models.
+ * Flexibility and customization: Jupyter Lab is highly customizable, with a wide range of extensions and updates available to tailor the platform to your specific needs.
+ * Easy integration: Jupyter Lab can easily integrate with other popular tools, such as GitHub, making it a highly flexible and powerful platform for data scientists and developers.
+
+## 4. Some Concepts
 * We will start with the basics of setting up a virtual environment
   * Why?
   * How?
@@ -15,8 +34,8 @@
   * pip -- the python installer
   * importing a module
   * accessing functions in a module  
-* We will install Jupyter Lab 
-## 3. Getting Started
+* We will install Jupyter Lab and jump right in
+## 5. Getting Started
 
 * Pick a location for your project
 * ~ (my home directory)
@@ -54,7 +73,7 @@
 `which python`
 
 
-## 4. Using the python-dotenv module
+## 6. Using the python-dotenv module
 
 `pip install python-dotenv`
 
@@ -68,12 +87,13 @@
 
 * inspect a few environment variables
 
-`>>> print(os.environ['HOME']`  
-`>>> print(os.environ['DB']`
+`>>> print(os.environ['HOME'])`  
+`>>> print(os.environ['DB'])`
 
 * import the dotenv.load_dotenv function and read our .env file
 
-`>>> from dotenv import load_dotenv`
+`>>> from dotenv import load_dotenv`  
+`>>> load_dotenv()`  
 `>>> print(os.environ['DB']`
 
 
@@ -83,7 +103,7 @@
 
 
 
-## 5. Jupyter
+## 7. Jupyter
 * install Jupyter
 
 `pip install jupyterlab`
