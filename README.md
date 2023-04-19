@@ -1,5 +1,3 @@
-In this session, we'll use the interactive Jupyter Lab environment to for some introductory data analysis in Pandas. We'll be using a number of Python modules that support the following: * Creating a virtual (isolated) environment for your project * Storing and accessing 'secrets' (credentials) using Python * Connecting to a relational database using SQLAlchemy Using the interactive Juypyter lab environment we'll explore the following: * Extracting data directly from a database into Pandas * Merging extracted data with external data * Spelunking with Pandas using describe, value_counts, grouping etc. and full analysis with pandas_profiling * Using Python and pandas to quickly process large numbers of files.
-
 # Agenda
 ## 1. Introduction
  * Started using SQL Server on OS/2 in early 90's
